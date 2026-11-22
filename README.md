@@ -24,11 +24,25 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/zlzzz122%40163.com-FB4D8D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=E7EDF8)](mailto:zlzzz122@163.com)
+![Email](https://img.shields.io/badge/zlzzz122%40163.com-FB4D8D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=E7EDF8)
 [![Blog](https://img.shields.io/badge/BLOG-szjmhxd.github.io-F5A524?style=for-the-badge&logo=rss&logoColor=white&labelColor=E7EDF8)](https://szjmhxd.github.io)
 [![GitHub](https://img.shields.io/badge/GITHUB-szjmhxd-0E9F94?style=for-the-badge&logo=github&logoColor=white&labelColor=E7EDF8)](https://github.com/szjmhxd)
 
+<sub>邮箱 <code>zlzzz122@163.com</code></sub>
+
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-now-dark.svg" />
+  <img src="./assets/divider-now.svg" width="100%" alt="NOW" />
+</picture>
+
+- **AstrBot 插件**：`lolmatch` 赛事推送、`bili_card` 链接卡片、`steamhub` Steam 好友动态，三个在同步维护
+- **自用小工具**：`nas-log-analyzer` 群晖审计日志检索、`symlink-explorer` Windows 软链接管理
+- **AHK 脚本**：`ahk-scripts` 随手加，最近补了小米妙享的右键返回与中键回桌面
+- **博客**：[szjmhxd.github.io](https://szjmhxd.github.io) 不定期记点实现细节
+
+<sub>最后更新 2026.11</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-stack-dark.svg" />
