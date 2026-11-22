@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 主页风格预览</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1d2e; --muted: #7c8aa0;
+    --border: #e7edf8; --card: #f7fafe; --link: #0e9f94;
+    --accent: #0e9f94; --pink: #fb4d8d;
+  }
+  body.dark {
+    --bg: #0d1117; --fg: #e6edf3; --muted: #8b949e;
+    --border: #30363d; --card: #161b22; --link: #58a6ff;
+    --accent: #2EE6D0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+    line-height: 1.7; transition: background .2s, color .2s;
+  }
+  .bar {
+    position: sticky; top: 0; z-index: 9;
+    display: flex; align-items: center; gap: 14px;
+    padding: 10px 20px; background: var(--card);
+    border-bottom: 1px solid var(--border);
+    font-size: 13px; color: var(--muted);
+  }
+  .bar strong { color: var(--fg); font-weight: 500; }
+  .bar button {
+    margin-left: auto; cursor: pointer;
+    background: transparent; color: var(--fg);
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 5px 14px; font-size: 13px; font-family: inherit;
+  }
+  .bar button:hover { border-color: var(--accent); color: var(--accent); }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 20px 80px; }
+  .banner { display: block; width: 100%; border-radius: 10px; }
+  .divider { display: block; width: 100%; margin: 34px 0 18px; }
+  h3 {
+    font-size: 15px; font-weight: 500; margin: 0 0 12px;
+    color: var(--accent); letter-spacing: .02em;
+  }
+  p, li { font-size: 14px; }
+  ul { padding-left: 22px; margin: 0; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .skills { display: block; width: 100%; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 0; }
+  .badges img { height: 26px; }
+  .statcard {
+    border: 1px solid var(--border); border-radius: 8px;
+    background: var(--card); padding: 14px 18px; margin-top: 14px;
+    font-family: Consolas, Menlo, monospace; font-size: 12px;
+    color: var(--muted); overflow-x: auto; white-space: pre;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: 13px; }
+  .note {
+    font-size: 12px; color: var(--muted); border-left: 2px solid var(--pink);
+    padding: 4px 0 4px 12px; margin: 14px 0 0;
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <strong>szjmhxd</strong>
+  <span>/ 主页风格预览</span>
+  <button id="t">切换深色 / 浅色</button>
+</div>
+
+<div class="wrap">
+
+  <img class="banner" src="assets/banner.svg" data-asset="banner" alt="十早九木 / SZJMHXD">
+
+  <div class="badges">
+    <img src="https://img.shields.io/badge/zlzzz122%40163.com-FB4D8D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=E7EDF8" alt="Email">
+    <img src="https://img.shields.io/badge/BLOG-szjmhxd.github.io-F5A524?style=for-the-badge&logo=rss&logoColor=white&labelColor=E7EDF8" alt="Blog">
+    <img src="https://img.shields.io/badge/GITHUB-szjmhxd-0E9F94?style=for-the-badge&logo=github&logoColor=white&labelColor=E7EDF8" alt="GitHub">
+  </div>
+
+  <img class="divider" src="assets/divider-stack.svg" data-asset="divider-stack" alt="STACK">
+  <img class="skills" src="assets/skills.svg" data-asset="skills" alt="技术栈">
+
+  <img class="divider" src="assets/divider-stats.svg" data-asset="divider-stats" alt="DATA">
+  <div class="statcard">&lt;github-readme-stats 卡片将渲染在这里&gt;
+bg_color=FAFBFF    title_color=0E9F94    text_color=1A1D2E
+icon_color=FB4D8D  border_color=E7EDF8</div>
+  <p class="note">统计卡片来自第三方服务，配色已对齐像素风；若国内加载失败，可删掉这一节，不影响整体。</p>
+
+  <img class="divider" src="assets/divider-work.svg" data-asset="divider-work" alt="WORK">
+  <h3>精选项目</h3>
+  <table>
+    <tr><th>项目</th><th>说明</th><th>栈</th></tr>
+    <tr><td><a href="https://github.com/szjmhxd/astrbot_plugin_lolmatch">astrbot_plugin_lolmatch</a></td><td>英雄联盟职业赛事查询与定时推送：赛程、赛果、逐局数据，支持 @ 提醒与可提醒时段</td><td>Python</td></tr>
+    <tr><td><a href="https://github.com/szjmhxd/astrbot_plugin_bili_card">astrbot_plugin_bili_card</a></td><td>识别 B 站视频 / 番剧 / 直播 / 专栏 / 动态 / 音频等链接，渲染成图文卡片</td><td>Python</td></tr>
+    <tr><td><a href="https://github.com/szjmhxd/astrbot_plugin_steamhub">astrbot_plugin_steamhub</a></td><td>通过 Steam Web API 导入好友名单，按序号绑定群成员，推送上下线与开玩提醒</td><td>Python</td></tr>
+    <tr><td><a href="https://github.com/szjmhxd/nas-log-analyzer">nas-log-analyzer</a></td><td>群晖 NAS 审计日志的本地可视化检索，清洗去重 + SQLite 查询，纯标准库零依赖</td><td>Python</td></tr>
+    <tr><td><a href="https://github.com/szjmhxd/symlink-explorer">symlink-explorer</a></td><td>Windows 软链接管理器：全盘扫描 reparse point、工作区卷校验、分类显隐</td><td>Python</td></tr>
+    <tr><td><a href="https://github.com/szjmhxd/ahk-scripts">ahk-scripts</a></td><td>AutoHotkey v2 脚本合集，MathInput 可在任意输入框敲算式直接出答案</td><td>AHK</td></tr>
+  </table>
+
+</div>
+
+<script>
+  var btn = document.getElementById('t');
+  function apply(dark) {
+    document.body.classList.toggle('dark', dark);
+    document.querySelectorAll('img[data-asset]').forEach(function (img) {
+      img.src = 'assets/' + img.dataset.asset + (dark ? '-dark' : '') + '.svg';
+    });
+  }
+  btn.addEventListener('click', function () {
+    apply(!document.body.classList.contains('dark'));
+  });
+  apply(document.body.classList.contains('dark'));
+</script>
+</body>
+</html>

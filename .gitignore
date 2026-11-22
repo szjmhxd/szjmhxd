@@ -1,0 +1,6 @@
+assets/_preview_*.png
+*.tmp
+_*.html
+_shot*.png
+__pycache__/
+.workbuddy/
