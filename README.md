@@ -50,12 +50,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=szjmhxd&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0A0B14&title_color=2EE6D0&text_color=E8ECFF&icon_color=FF5FA2&border_color=161A2C" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=szjmhxd&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=FAFBFF&title_color=0E9F94&text_color=1A1D2E&icon_color=FB4D8D&border_color=E7EDF8" alt="GitHub Stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=szjmhxd&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&bg_color=0A0B14&title_color=2EE6D0&text_color=E8ECFF&icon_color=FF5FA2&border_color=161A2C" />
+  <img src="https://github-readme-stats.vercel.app/api?username=szjmhxd&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&bg_color=F4F8FE&title_color=0E9F94&text_color=1A1D2E&icon_color=FB4D8D&border_color=DCE6F4" alt="GitHub Stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=szjmhxd&layout=compact&hide_border=true&langs_count=6&bg_color=0A0B14&title_color=2EE6D0&text_color=E8ECFF&border_color=161A2C" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=szjmhxd&layout=compact&hide_border=true&langs_count=6&bg_color=FAFBFF&title_color=0E9F94&text_color=1A1D2E&border_color=E7EDF8" alt="Top Languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=szjmhxd&layout=compact&hide_border=true&langs_count=6&exclude_repo=szjmhxd.github.io,blog-hexo-Melody-old&bg_color=0A0B14&title_color=2EE6D0&text_color=E8ECFF&border_color=161A2C" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=szjmhxd&layout=compact&hide_border=true&langs_count=6&exclude_repo=szjmhxd.github.io,blog-hexo-Melody-old&bg_color=F4F8FE&title_color=0E9F94&text_color=1A1D2E&border_color=DCE6F4" alt="Top Languages" />
 </picture>
 
 </div>
