@@ -1,6 +1,7 @@
-assets/_preview_*.png
-*.tmp
-_*.html
-_shot*.png
-__pycache__/
 .workbuddy/
+assets/_preview_*.png
+_*.png
+_*.html
+_*.svg
+*.tmp
+__pycache__/
