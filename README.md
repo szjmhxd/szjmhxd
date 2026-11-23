@@ -68,8 +68,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg?v=2" />
-  <img src="./assets/contrib.svg?v=2" width="100%" alt="近一年每日提交热力图，附活跃天数、最长连续与单日峰值" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg?v=3" />
+  <img src="./assets/contrib.svg?v=3" width="100%" alt="近一年每日提交热力图，附活跃天数、最长连续与单日峰值" />
 </picture>
 
 </div>
