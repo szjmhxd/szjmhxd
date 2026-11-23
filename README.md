@@ -69,7 +69,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg" />
-  <img src="./assets/contrib.svg" width="100%" alt="近一年提交热力图：共 301 次提交，活跃 38 天，最长连续 5 天，单日峰值 29 次" />
+  <img src="./assets/contrib.svg" width="100%" alt="近一年每日提交热力图，附活跃天数、最长连续与单日峰值" />
 </picture>
 
 </div>
@@ -79,11 +79,13 @@
   <img src="./assets/divider-project.svg" width="100%" alt="PROJECTS" />
 </picture>
 
-| 项目 | 说明 | 栈 |
-| :--- | :--- | :--- |
-| <a href="https://github.com/szjmhxd/astrbot_plugin_lolmatch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/lolmatch-dark.svg"><img src="assets/proj/lolmatch.svg" width="400" alt="astrbot_plugin_lolmatch"></picture></a> | 英雄联盟职业赛事查询与定时推送：赛程、赛果、逐局数据，支持 @ 提醒与可提醒时段 | Python |
-| <a href="https://github.com/szjmhxd/astrbot_plugin_bili_card"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/bili-card-dark.svg"><img src="assets/proj/bili-card.svg" width="400" alt="astrbot_plugin_bili_card"></picture></a> | 识别 B 站视频 / 番剧 / 直播 / 专栏 / 动态 / 音频等各类链接，渲染成图文卡片并附可复制链接 | Python |
-| <a href="https://github.com/szjmhxd/astrbot_plugin_steamhub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/steamhub-dark.svg"><img src="assets/proj/steamhub.svg" width="400" alt="astrbot_plugin_steamhub"></picture></a> | 通过 Steam Web API 导入好友名单，按序号绑定群成员，推送上下线与开玩提醒 | Python |
-| <a href="https://github.com/szjmhxd/nas-log-analyzer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/nas-log-dark.svg"><img src="assets/proj/nas-log.svg" width="400" alt="nas-log-analyzer"></picture></a> | 群晖 NAS 审计日志的本地可视化检索：自动清洗去重、按文件追踪操作轨迹、SQLite 查询，纯标准库零依赖 | Python |
-| <a href="https://github.com/szjmhxd/symlink-explorer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/symlink-dark.svg"><img src="assets/proj/symlink.svg" width="400" alt="symlink-explorer"></picture></a> | Windows 软链接管理器：全盘扫描 reparse point、工作区卷校验、分类显隐，纯标准库 | Python |
-| <a href="https://github.com/szjmhxd/ahk-scripts"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/ahk-dark.svg"><img src="assets/proj/ahk.svg" width="400" alt="ahk-scripts"></picture></a> | AutoHotkey v2 自用脚本合集，MathInput 可在任意输入框敲算式按 = 直接出答案，支持链式计算 | AHK |
+| 项目 | 说明 |
+| :--- | :--- |
+| <a href="https://github.com/szjmhxd/astrbot_plugin_lolmatch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/lolmatch-dark.svg"><img src="assets/proj/lolmatch.svg" width="300" alt="astrbot_plugin_lolmatch"></picture></a> | 英雄联盟职业赛事查询与定时推送：赛程、赛果、逐局数据，支持 @ 提醒与可提醒时段 |
+| <a href="https://github.com/szjmhxd/astrbot_plugin_bili_card"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/bili-card-dark.svg"><img src="assets/proj/bili-card.svg" width="300" alt="astrbot_plugin_bili_card"></picture></a> | 识别 B 站视频 / 番剧 / 直播 / 专栏 / 动态 / 音频等各类链接，渲染成图文卡片并附可复制链接 |
+| <a href="https://github.com/szjmhxd/astrbot_plugin_steamhub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/steamhub-dark.svg"><img src="assets/proj/steamhub.svg" width="300" alt="astrbot_plugin_steamhub"></picture></a> | 通过 Steam Web API 导入好友名单，按序号绑定群成员，推送上下线与开玩提醒 |
+| <a href="https://github.com/szjmhxd/nas-log-analyzer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/nas-log-dark.svg"><img src="assets/proj/nas-log.svg" width="300" alt="nas-log-analyzer"></picture></a> | 群晖 NAS 审计日志的本地可视化检索：自动清洗去重、按文件追踪操作轨迹、SQLite 查询，纯标准库零依赖 |
+| <a href="https://github.com/szjmhxd/symlink-explorer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/symlink-dark.svg"><img src="assets/proj/symlink.svg" width="300" alt="symlink-explorer"></picture></a> | Windows 软链接管理器：全盘扫描 reparse point、工作区卷校验、分类显隐，纯标准库 |
+| <a href="https://github.com/szjmhxd/ahk-scripts"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/ahk-dark.svg"><img src="assets/proj/ahk.svg" width="300" alt="ahk-scripts"></picture></a> | AutoHotkey v2 自用脚本合集，MathInput 可在任意输入框敲算式按 = 直接出答案，支持链式计算 |
+
+<sub>色条：<b>品红</b> = AstrBot 插件 · <b>青</b> = 自用工具 · <b>黄</b> = AHK 脚本；除 AHK 外均为 Python。</sub>
