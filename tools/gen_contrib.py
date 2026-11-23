@@ -149,7 +149,7 @@ def build(theme, cal):
         r.append((x, 4, 3, 1, CARD_GRID))
 
     # 标题 + 总数
-    r += pixel_text("COMMIT ACTIVITY", 3, 40, 28, CYAN)
+    r += pixel_text("YEAR IN PIXELS", 3, 40, 28, CYAN)
     r += seg(
         [("TOTAL ", DIM), (str(total), MAGENTA)],
         3,
