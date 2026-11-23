@@ -5,3 +5,4 @@ _*.html
 _*.svg
 *.tmp
 __pycache__/
+tools/win.py
