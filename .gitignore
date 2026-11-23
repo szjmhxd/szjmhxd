@@ -6,3 +6,4 @@ _*.svg
 *.tmp
 __pycache__/
 tools/win.py
+.tmp/

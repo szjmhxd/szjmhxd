@@ -25,14 +25,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/gen_stats.py
 
+      - name: 重新生成贡献热力图
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/gen_contrib.py
+
       - name: 提交变更
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/stats-dark.svg
+          git add assets/stats.svg assets/stats-dark.svg assets/contrib.svg assets/contrib-dark.svg
           if git diff --staged --quiet; then
             echo "数据无变化，跳过提交"
           else
-            git commit -m "chore: 更新统计卡片"
+            git commit -m "chore: 更新统计卡片与贡献热力图"
             git push
           fi

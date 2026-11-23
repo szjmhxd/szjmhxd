@@ -418,7 +418,7 @@ if __name__ == "__main__":
         ("divider-now.svg", "NOW"),
         ("divider-stack.svg", "STACK"),
         ("divider-stats.svg", "DATA"),
-        ("divider-work.svg", "WORK"),
+        ("divider-project.svg", "PROJECTS"),
     ]:
         (ASSETS / name.replace(".svg", f"{SUFFIX}.svg")).write_text(
             divider_svg(label), encoding="utf-8"

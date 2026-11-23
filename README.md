@@ -12,6 +12,9 @@
   重新生成视觉资源：
     浅色  python tools/gen_banner.py
     深色  THEME=dark python tools/gen_banner.py
+    名签  python tools/gen_projects.py
+    热力  python tools/gen_contrib.py      （需要 GITHUB_TOKEN 或已登录的 gh）
+    统计  python tools/gen_stats.py        （每日由 Actions 自动重算）
   ═══════════════════════════════════════════════════════════
 -->
 
@@ -23,13 +26,9 @@
 </div>
 
 <div align="center">
-
-![Email](https://img.shields.io/badge/zlzzz122%40163.com-FB4D8D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=E7EDF8)
-[![Blog](https://img.shields.io/badge/BLOG-szjmhxd.github.io-F5A524?style=for-the-badge&logo=rss&logoColor=white&labelColor=E7EDF8)](https://szjmhxd.github.io)
-[![GitHub](https://img.shields.io/badge/GITHUB-szjmhxd-0E9F94?style=for-the-badge&logo=github&logoColor=white&labelColor=E7EDF8)](https://github.com/szjmhxd)
-
-<sub>邮箱 <code>zlzzz122@163.com</code></sub>
-
+  <a href="mailto:zlzzz122@163.com"><img src="https://img.shields.io/badge/zlzzz122%40163.com-FB4D8D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=E7EDF8" alt="Email: zlzzz122@163.com" /></a>
+  <a href="https://szjmhxd.github.io"><img src="https://img.shields.io/badge/BLOG-szjmhxd.github.io-F5A524?style=for-the-badge&amp;logo=rss&amp;logoColor=white&amp;labelColor=E7EDF8" alt="Blog" /></a>
+  <a href="https://github.com/szjmhxd"><img src="https://img.shields.io/badge/GITHUB-szjmhxd-0E9F94?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=E7EDF8" alt="GitHub" /></a>
 </div>
 
 <picture>
@@ -68,20 +67,23 @@
   <img src="./assets/stats.svg" width="100%" alt="GitHub 统计：仓库数、Star 数、关注者数、主要语言" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg" />
+  <img src="./assets/contrib.svg" width="100%" alt="近一年提交热力图：共 301 次提交，活跃 38 天，最长连续 5 天，单日峰值 29 次" />
+</picture>
+
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-work-dark.svg" />
-  <img src="./assets/divider-work.svg" width="100%" alt="WORK" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-project-dark.svg" />
+  <img src="./assets/divider-project.svg" width="100%" alt="PROJECTS" />
 </picture>
 
-### 精选项目
-
 | 项目 | 说明 | 栈 |
-| --- | --- | --- |
-| [astrbot_plugin_lolmatch](https://github.com/szjmhxd/astrbot_plugin_lolmatch) | 英雄联盟职业赛事查询与定时推送：赛程、赛果、逐局数据，支持 @ 提醒与可提醒时段 | Python |
-| [astrbot_plugin_bili_card](https://github.com/szjmhxd/astrbot_plugin_bili_card) | 识别 B 站视频 / 番剧 / 直播 / 专栏 / 动态 / 音频等各类链接，渲染成图文卡片并附可复制链接 | Python |
-| [astrbot_plugin_steamhub](https://github.com/szjmhxd/astrbot_plugin_steamhub) | 通过 Steam Web API 导入好友名单，按序号绑定群成员，推送上下线与开玩提醒 | Python |
-| [nas-log-analyzer](https://github.com/szjmhxd/nas-log-analyzer) | 群晖 NAS 审计日志的本地可视化检索：自动清洗去重、按文件追踪操作轨迹、SQLite 查询，纯标准库零依赖 | Python |
-| [symlink-explorer](https://github.com/szjmhxd/symlink-explorer) | Windows 软链接管理器：全盘扫描 reparse point、工作区卷校验、分类显隐，纯标准库 | Python |
-| [ahk-scripts](https://github.com/szjmhxd/ahk-scripts) | AutoHotkey v2 自用脚本合集，MathInput 可在任意输入框敲算式按 = 直接出答案，支持链式计算 | AHK |
+| :--- | :--- | :--- |
+| <a href="https://github.com/szjmhxd/astrbot_plugin_lolmatch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/lolmatch-dark.svg"><img src="assets/proj/lolmatch.svg" width="400" alt="astrbot_plugin_lolmatch"></picture></a> | 英雄联盟职业赛事查询与定时推送：赛程、赛果、逐局数据，支持 @ 提醒与可提醒时段 | Python |
+| <a href="https://github.com/szjmhxd/astrbot_plugin_bili_card"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/bili-card-dark.svg"><img src="assets/proj/bili-card.svg" width="400" alt="astrbot_plugin_bili_card"></picture></a> | 识别 B 站视频 / 番剧 / 直播 / 专栏 / 动态 / 音频等各类链接，渲染成图文卡片并附可复制链接 | Python |
+| <a href="https://github.com/szjmhxd/astrbot_plugin_steamhub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/steamhub-dark.svg"><img src="assets/proj/steamhub.svg" width="400" alt="astrbot_plugin_steamhub"></picture></a> | 通过 Steam Web API 导入好友名单，按序号绑定群成员，推送上下线与开玩提醒 | Python |
+| <a href="https://github.com/szjmhxd/nas-log-analyzer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/nas-log-dark.svg"><img src="assets/proj/nas-log.svg" width="400" alt="nas-log-analyzer"></picture></a> | 群晖 NAS 审计日志的本地可视化检索：自动清洗去重、按文件追踪操作轨迹、SQLite 查询，纯标准库零依赖 | Python |
+| <a href="https://github.com/szjmhxd/symlink-explorer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/symlink-dark.svg"><img src="assets/proj/symlink.svg" width="400" alt="symlink-explorer"></picture></a> | Windows 软链接管理器：全盘扫描 reparse point、工作区卷校验、分类显隐，纯标准库 | Python |
+| <a href="https://github.com/szjmhxd/ahk-scripts"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj/ahk-dark.svg"><img src="assets/proj/ahk.svg" width="400" alt="ahk-scripts"></picture></a> | AutoHotkey v2 自用脚本合集，MathInput 可在任意输入框敲算式按 = 直接出答案，支持链式计算 | AHK |
